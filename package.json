@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "concurrently": "^7.6.0"
+  },
+  "name": "chat-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"cd frontend && npm run preview\" \"cd nodeServer && npm start\""
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
